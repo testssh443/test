@@ -21,8 +21,6 @@ export default function EditRiceAdmin() {
     RiceMoisture: "",
     RiceURL: "",
   });
-  // console.log(values);
-  // console.log(resTemp);
 
   useEffect(() => {
     axios.post(linkDB + "/rice/update", { RiceID: id }).then((response) => {
