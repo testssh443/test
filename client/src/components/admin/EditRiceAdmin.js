@@ -69,29 +69,12 @@ export default function EditRiceAdmin() {
         .catch((err) => {
           console.error("Error:", err);
         });
-
-    // axios
-    //   .post(linkDB + "/update-temp-rice", temp)
-    //   .then((response) => response.json())
-    //   .then((data) => {
-    //     console.log(data);
-    //     if (data.status === "sucess") {
-    //       alert("SignUp sucess");
-    //       window.location = "/";
-    //     } else {
-    //       alert("SignUp failed");
-    //     }
-    //   })
-    //   .catch((err) => {
-    //     console.error("Error:", err);
-    //   });
   };
-// console.log("http://localhost:3000"+"/view-rice/");
-// console.log(id);
+
 const urld = "http://localhost:3000"+"/view-rice/";
 const pathd = id;
 const urlpath = (urld+pathd);
-// console.log(urlpath);
+
   return (
     <div>
       <div className="container py-3">
