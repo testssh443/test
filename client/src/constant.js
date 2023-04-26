@@ -1,5 +1,4 @@
 export const linkDB = "http://localhost:3030";
-// export const linkDB = "https://enchanting-jade-garb.cyclic.app/";
 
 export const genKey = () => {
   var text = "";
