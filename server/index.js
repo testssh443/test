@@ -19,24 +19,11 @@ const mysql = require("mysql");
 const multer = require("multer");
 const PORT = 3030;
 
-// const sqlConnect = mysql.createConnection({
-//   // timeout:100,
-//   host: "6cb.h.filess.io",
-//   user: "a",
-//   password: "b6864e2d23b4e4aa8fdc0c0cf88dbf7b868f55f3",
-//   database: "millproject_childgift",
-//   port: "3306",
-//   localAddress:
-//     "mysql://millproject_childgift:b6864e2d23b4e4aa8fdc0c0cf88dbf7b868f55f3@6cb.h.filess.io:3307/millproject_childgift",
-// });
-
 const sqlConnect = mysql.createConnection({
   host: "127.0.0.1",
   user: "root",
   password: "",
   database: "millproject_childgift",
-  // localAddress:
-  //   'mysql://0uocyc7rjyedqjonkgee:pscale_pw_nsrVevuHV9KLonqur2G4a8oTnYVGozyMS6yHLAZ4LzA@us-east.connect.psdb.cloud/new-mill?ssl={"rejectUnauthorized":true}',
 });
 
 // img storage confing
